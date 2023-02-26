@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Вкладки на полные страницы JS</title>
+</head>
+
+<body>
+    <div class="links">
+        <div class="tab_link" onclick="openPage('home', this, 'red')" id="defaultOpen">Home</div>
+        <div class="tab_link" onclick="openPage('about', this, 'green')">About</div>
+        <div class="tab_link" onclick="openPage('develop', this, 'blue')">Develop</div>
+        <div class="tab_link" onclick="openPage('contacts', this, 'orange')">Contacts</div>
+    </div>
+    <div class="contents">
+        <div id="home" class="tab_content">
+            <h2>Home</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum incidunt, alias mollitia nam, corporis
+                ipsa ut nobis aut repudiandae deleniti veritatis unde, quia aspernatur perspiciatis molestias earum.</p>
+        </div>
+        <div id="about" class="tab_content">
+            <h2>About</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum incidunt, alias mollitia nam, corporis
+                ipsa ut nobis aut repudiandae deleniti veritatis unde, quia aspernatur perspiciatis molestias earum.</p>
+        </div>
+        <div id="develop" class="tab_content">
+            <h2>Develop</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum incidunt, alias mollitia nam, corporis
+                ipsa ut nobis aut repudiandae deleniti veritatis unde, quia aspernatur perspiciatis molestias earum.</p>
+        </div>
+        <div id="contacts" class="tab_content">
+            <h2>Contacts</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum incidunt, alias mollitia nam, corporis
+                ipsa ut nobis aut repudiandae deleniti veritatis unde, quia aspernatur perspiciatis molestias earum.</p>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="app.js"></script>
+</body>
+
+</html>
